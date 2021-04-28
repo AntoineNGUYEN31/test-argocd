@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: nginx
+        image: caddy
         ports:
         - containerPort: 80
