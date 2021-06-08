@@ -1,0 +1,11 @@
+keycloak:
+    postgresql:
+        persistence:
+            enabled: false
+    serviceDiscovery:
+        enabled: true
+    replicaCount: 1
+    ingress:
+        enabled: true
+        hostname: keycloak.test-ple-staging.ccs.cegedim.cloud
+
